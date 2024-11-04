@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Trabechet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
 }
 html,body{
     width: 100%;
@@ -15,7 +15,7 @@ html,body{
 .top{
     width: 100%;
     min-height: 60vh;
-    background-image:url(download.png);
+    background-image:url(Musical\ Instumentes.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -26,10 +26,10 @@ html,body{
     background-color: rgba(0, 0, 0, 0.295);
 }
 .text{
-    position: absolute;
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    position: absolute;
     width: 100%;
     padding: 0 10vh;
     color: white;
@@ -42,11 +42,11 @@ html,body{
 .text .image{
     width: 220px;
     height: 300px;
-    background-image: url(artwork\ \(1\).png);
+    background-image: url(dcd9d6e9-9bfa-4252-b663-f19beef39269.jpg);
     background-size: cover;
     background-position: center;
 }
-#rtext{
+.rtext{
     display: flex;
     width: 25%;
     justify-content: space-between;
@@ -63,7 +63,7 @@ html,body{
 .b1{
     width: 30%;
     min-height: inherit;
-    background-image: url(artwork.png) ;
+    background-image: url(0b550ca6-b5e6-44ca-b350-877a80b3813a.jpg) ;
     background-size: cover;
     background-position: center;
 }
@@ -85,7 +85,7 @@ html,body{
 .b2 .up{
     width: 100%;
     min-height: 20vh;
-    background-image: url(download\ \(4\).jpg) ;
+    background-image: url(Harmonium.jpg) ;
     background-size: cover;
     background-position: center;
 }
@@ -100,8 +100,8 @@ html,body{
 }
 .b2 .down{
     width: 100%;
-    min-height: 50%;
-    background-image: url(Har\ Gouri.jpg);
+    min-height: 20vh;
+    background-image: url(Flute\ and\ peacock\ feather\ 🪶.jpg) ;
     background-size: cover;
     background-position: center;
 }
@@ -114,16 +114,16 @@ html,body{
 .b3{
     width: 40%;
     min-height: inherit;
-    background-image:url(🙏🌹🌺\ 15\ August\ 2024.jpg) ;
+    background-image:url(Free\ Photo\ _\ A\ man\ plays\ an\ acoustic\ guitar\ closeup.jpg) ;
     background-size: cover;
     background-position: center;
 }
 .b3 .overlay{
+    justify-content: right;
     position: relative;
     width: 50%;
     margin-left: 50%;
     height: 100%;
-    min-height: inherit;
     padding: 4vw 3vh;
 }
 .b3 .overlay p{
@@ -136,7 +136,7 @@ html,body{
     }
     .b3 .overlay{
         width: 100%;
-        margin-left: inherit;
+        margin-left: initial;
     }
 }
 @media(max-width: 500px){
@@ -174,7 +174,7 @@ html,body{
         width: 100%;
     }
     .b2 .up{
-        width: 100%;
+        min-height: 30vh;
     }
     .b3{
         width: 100%;
